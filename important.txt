@@ -1,0 +1,22 @@
+IMPORT TKINTER AS TK - usa para criar interfaces graficas, como: janela principal, botões, rótulos, entradas de texto, etc
+
+FROM TKINTER IMPORT TTK, FONT, MESSAGEBOX, BOTH - 
+TTK  = widgets estilizados
+
+FONT = permite criar e modificar tipos de fontes, 
+tamanhos e estilos (negrito, itálico, etc.) para 
+os widgets da interface gráfica. 
+
+MESSAGEBOX = é utilizado para exibir janelas de 
+diálogo, como caixas de alerta, mensagens de erro, 
+confirmações ou simples avisos.
+
+BOTH = é um valor de preenchimento usado no método pack() 
+para expandir o widget tanto na horizontal quanto na vertical, 
+mas ele precisa ser importado corretamente.
+
+FROM TKINTER IMPORT PHOTOIMAGE - poder inserir imagens dentro do app.
+
+TK.FRAME() - é um contêiner que agrupa e organiza outros widgets. 
+Ele é essencialmente uma área retangular na interface gráfica que 
+pode conter outros widgets, como botões, rótulos, campos de texto, etc. 
