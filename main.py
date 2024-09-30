@@ -134,7 +134,7 @@ add_botton.pack(side=tk.LEFT, padx=10)
 
 # Criar um frame para a listar de tarefas com rolagem
 task_list_frame = tk.Frame(window, background="white")
-task_list_frame.pack(fill=BOTH, expand=True, padx=10, pady=10) 
+task_list_frame.pack(fill=BOTH, expand=True, padx=20, pady=20) 
 
 # tk.Canvas permite desenhar formas geometricas, gráficos, imagens entre outros
 canvas = tk.Canvas(task_list_frame, background="white")
